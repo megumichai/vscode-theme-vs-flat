@@ -1,0 +1,21 @@
+{
+  "name": "vs-flat",
+  "displayName": "VS Flat",
+  "description": "Flat themes based on the built-in Visual Studio themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "megumi",
+        "uiTheme": "vs-dark",
+        "path": "./themes/megumi-color-theme.json"
+      }
+    ]
+  }
+}
