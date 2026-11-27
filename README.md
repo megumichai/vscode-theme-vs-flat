@@ -1,16 +1,14 @@
-# vs-flat README
+# VS Flat
 
-## Working with Markdown
+Flat color themes based on VS Code's built-in Visual Studio themes.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Themes
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- VS Flat Dark
+- VS Flat Light
 
-## For more information
+Select them with `Preferences: Color Theme` in VS Code.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## License
 
-**Enjoy!**
+MIT
