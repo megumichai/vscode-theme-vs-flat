@@ -4,8 +4,18 @@
   "description": "Flat themes based on the built-in Visual Studio themes",
   "version": "0.0.1",
   "publisher": "megumichai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megumichai/vscode-theme-vs-flat.git"
+  },
+  "homepage": "https://github.com/megumichai/vscode-theme-vs-flat#readme",
+  "bugs": {
+    "url": "https://github.com/megumichai/vscode-theme-vs-flat/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "package": "vsce package --no-dependencies",
+    "publish": "vsce publish --no-dependencies",
     "sort:json": "node scripts/sort-json.mjs"
   },
   "engines": {
