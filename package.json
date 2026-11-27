@@ -3,6 +3,11 @@
   "displayName": "VS Flat",
   "description": "Flat themes based on the built-in Visual Studio themes",
   "version": "0.0.1",
+  "publisher": "megumichai",
+  "scripts": {
+    "package": "vsce package --no-dependencies",
+    "sort:json": "node scripts/sort-json.mjs"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -12,10 +17,18 @@
   "contributes": {
     "themes": [
       {
-        "label": "megumi",
+        "label": "VS Flat Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/megumi-color-theme.json"
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "VS Flat Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.1.1"
   }
 }
