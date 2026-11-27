@@ -16,6 +16,7 @@
   "scripts": {
     "package": "vsce package --no-dependencies",
     "publish": "vsce publish --no-dependencies",
+    "publish:openvsx": "ovsx publish -i vs-flat-*.vsix",
     "sort:json": "node scripts/sort-json.mjs"
   },
   "engines": {
@@ -39,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "^4.1.1"
+    "@vscode/vsce": "^4.1.1",
+    "ovsx": "^1.4.0"
   }
 }
