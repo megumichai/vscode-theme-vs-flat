@@ -82,7 +82,7 @@
     "debugTokenExpression.boolean": "#999b9e",
     "debugTokenExpression.name": "#cfd0d1",
     "debugTokenExpression.number": "#999b9e",
-    "debugTokenExpression.string": "#b4b7ba",
+    "debugTokenExpression.string": "#ce9178",
     "debugTokenExpression.type": "#d4d6d8",
     "debugTokenExpression.value": "#999b9e",
     "debugToolBar.background": "#2c2e31",
@@ -666,7 +666,7 @@
       "foreground": "#b5cea8"
     },
     "stringLiteral": {
-      "foreground": "#cfd0d1"
+      "foreground": "#ce9178"
     },
     "typeParameter": {
       "bold": true,
@@ -678,7 +678,6 @@
       "scope": [
         "meta.embedded",
         "source.groovy.embedded",
-        "string meta.image.inline.markdown",
         "variable.legacy.builtin.python"
       ],
       "settings": {
@@ -860,7 +859,7 @@
     {
       "scope": "meta.preprocessor.string",
       "settings": {
-        "foreground": "#cfd0d1"
+        "foreground": "#ce9178"
       }
     },
     {
@@ -905,28 +904,29 @@
     {
       "scope": [
         "string",
-        "meta.embedded.assembly"
+        "meta.embedded.assembly",
+        "string meta.image.inline.markdown"
       ],
       "settings": {
-        "foreground": "#cfd0d1"
+        "foreground": "#ce9178"
       }
     },
     {
       "scope": "string.tag",
       "settings": {
-        "foreground": "#cfd0d1"
+        "foreground": "#ce9178"
       }
     },
     {
       "scope": "string.value",
       "settings": {
-        "foreground": "#cfd0d1"
+        "foreground": "#ce9178"
       }
     },
     {
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#cfd0d1"
+        "foreground": "#ce9178"
       }
     },
     {
@@ -1071,14 +1071,14 @@
       "name": "HTML double-quoted strings",
       "scope": "string.quoted.double.html",
       "settings": {
-        "foreground": "#b4b7ba"
+        "foreground": "#ce9178"
       }
     },
     {
       "name": "HTML id attribute values",
       "scope": "meta.attribute.id.html string.quoted.double.html",
       "settings": {
-        "foreground": "#cfd0d1"
+        "foreground": "#ce9178"
       }
     }
   ],

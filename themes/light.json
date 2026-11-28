@@ -82,7 +82,7 @@
     "debugTokenExpression.boolean": "#6d6f71",
     "debugTokenExpression.name": "#343637",
     "debugTokenExpression.number": "#6d6f71",
-    "debugTokenExpression.string": "#56585b",
+    "debugTokenExpression.string": "#a31515",
     "debugTokenExpression.type": "#2b2c2d",
     "debugTokenExpression.value": "#6d6f71",
     "debugToolBar.background": "#f0f0ef",
@@ -666,7 +666,7 @@
       "foreground": "#098658"
     },
     "stringLiteral": {
-      "foreground": "#343637"
+      "foreground": "#a31515"
     },
     "typeParameter": {
       "bold": true,
@@ -678,7 +678,6 @@
       "scope": [
         "meta.embedded",
         "source.groovy.embedded",
-        "string meta.image.inline.markdown",
         "variable.legacy.builtin.python"
       ],
       "settings": {
@@ -864,7 +863,7 @@
     {
       "scope": "meta.preprocessor.string",
       "settings": {
-        "foreground": "#343637"
+        "foreground": "#a31515"
       }
     },
     {
@@ -903,10 +902,11 @@
     {
       "scope": [
         "string",
-        "meta.embedded.assembly"
+        "meta.embedded.assembly",
+        "string meta.image.inline.markdown"
       ],
       "settings": {
-        "foreground": "#343637"
+        "foreground": "#a31515"
       }
     },
     {
@@ -928,13 +928,13 @@
         "string.quoted.double.handlebars"
       ],
       "settings": {
-        "foreground": "#343637"
+        "foreground": "#a31515"
       }
     },
     {
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#343637"
+        "foreground": "#a31515"
       }
     },
     {
@@ -1101,14 +1101,14 @@
       "name": "HTML double-quoted strings",
       "scope": "string.quoted.double.html",
       "settings": {
-        "foreground": "#6d6f71"
+        "foreground": "#a31515"
       }
     },
     {
       "name": "HTML id attribute values",
       "scope": "meta.attribute.id.html string.quoted.double.html",
       "settings": {
-        "foreground": "#343637"
+        "foreground": "#a31515"
       }
     }
   ],
