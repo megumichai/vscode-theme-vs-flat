@@ -2,7 +2,7 @@
   "name": "vs-flat",
   "displayName": "VS Flat",
   "description": "Flat themes based on the built-in Visual Studio themes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "megumichai",
   "repository": {
     "type": "git",
