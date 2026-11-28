@@ -634,9 +634,7 @@
     "welcomePage.tileBorder": "#00000000",
     "welcomePage.tileHoverBackground": "#00000014",
     "widget.border": "#00000000",
-    "widget.shadow": "#00000000",
-    "window.activeBorder": "#00000000",
-    "window.inactiveBorder": "#00000000"
+    "widget.shadow": "#00000000"
   },
   "name": "VS Flat Light",
   "semanticHighlighting": true,
